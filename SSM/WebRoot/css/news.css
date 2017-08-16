@@ -1,0 +1,42 @@
+/*--每个页面的内容--*/
+.Main-article{width: 855px;float:left;padding: 0px 20px 0 10px;}
+.Main-article .artClass{position: absolute; left: 10px; top: 20px; height: 28px}
+.Main-article .artClass a, .Main-article .artClass span{color: #FFF; font-size: 16px;text-align: center; line-height: 28px; background: #de3226;padding: 0 10px;display: inline-block; margin-right: 5px}
+.article-view{padding: 0px 30px 30px 30px;}
+.article-view .article-header{padding-bottom: 10px}
+.article-view .article-header h1{color: #141414; font-size: 26px; line-height: 34px; font-weight: 700; letter-spacing: -1px}
+.article-view .article-header p{font-size: 14px; color: #6b6a6a; line-height: 25px; padding: 6px 0}
+.article-info{border-bottom: 1px solid #eee; overflow: hidden; padding-bottom: 5px}
+.article-info .info-s{position: relative; padding: 0; line-height: 29px}
+.article-info .info-s .author{color: #000; margin-right: 5px}
+.article-info .info-s .comment-num a, .article-info .info-s .date{color: #bbb}
+.article-info .info-s .jm-collection.clicked span{color: #F12B35;}
+.article-info .info-s .comment-num{color: #bbb; margin-left: 5px; }
+.article-info .info-s .comment-num .jm-icon{width: 16px; vertical-align: -5px; height: 16px}
+.article-info p .tags{display: inline-block; margin: 4px 2px 8px 0; line-height: 21px; height: 21px; background: #818181; padding: 0 12px; color: #FFF; float: left}
+.content-text-focus.align-right, .set-size{float: right}
+.article-info p .tags:hover{background: #de3226; text-decoration: none}
+.article-main{padding-top: 15px}
+.article-main .article-img{margin-bottom: 30px; border-bottom: 1px solid #CCC; padding-bottom: 15px}
+.article-main .article-img img{max-width: 100%; margin: 0 auto}
+.article-main .article-img p{text-align: right; color: #aaa; line-height: 20px; padding-top: 15px}
+.article-main .article-content{padding-bottom: 10px; position: relative; font-size: 16px; line-height: 24px}
+.article-main strong{font-weight:bold}
+.article-main .article-content h3, .article-main .article-content h4, .article-main .article-content ol, .article-main .article-content p, .article-main .article-content ul{margin-bottom: 20px}
+.article-main .article-content ul{list-style: disc}
+.article-main .article-content ol{list-style: decimal}
+.article-main .article-content li{font-size: 15px; line-height: 30px; margin-left: 20px}
+.article-main .article-content p{font-size: 16px; line-height: 1.8; color: #0e0e0e}
+.article-main .article-content iframe{height: 350px; width: 579px}
+.article-main .article-content em, .article-main .article-content i{font-style: italic}
+.article-main .article-content p a{color: #6c899d}
+.article-main .article-content img{max-width: 100%; margin: 0 auto}
+.article-main .article-source p { color: #666;  line-height: 20px; font-family: "KAITI";  font-size: 12px; margin-bottom: 0;}
+/*--评论--*/
+.re-article{margin-top: 10px; padding-bottom: 10px; overflow: hidden}
+.re-article .title-view{border-bottom: 1px solid #ddd; height: 28px; line-height: 28px; color: grey; font-size: 13px; margin-bottom: 10px}
+.re-article .title-view .title-box{ line-height: 28px; float: left; font-size: 16px; color: #000; font-weight: 700}
+.re-article .title-view .title-box h2{ font-weight: bold; }
+.article-box{position: relative; left: 0; top: 0; width: 864px;}
+.text textarea{border: #008de4 1px solid;border-radius: 5px;width: 700px;height: 120px;}
+.text button{float:right;margin-right:160px;width:80px;height:35px;border:1px solid gainsboro;border-radius: 8px;background: #008DE4;}

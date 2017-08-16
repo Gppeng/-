@@ -1,0 +1,65 @@
+/*css样式初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button
+form,fieldset,input,textarea,p,blockquote,th,td{padding: 0;margin: 0;}
+body{font:normal 14px/20px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "SimSun", "\5B8B\4F53"}
+/* 缩写，图片等无边框*/
+fieldset,img,abbr,acronym{border: 0;}
+abbr,acronym{font-variant: normal;}
+legend{color:#000;}
+/* 清除特殊标记的字体和字号*/
+address,caption,cite,code,dfn,em,strong,th,var{font-weight: normal;font-style: normal;}
+/* 上下标*/
+sup{vertical-align: text-top;}
+sub{vertical-align: text-bottom;}
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+/* 表格标题及内容居左显示*/
+input,img,select{vertical-align:middle;}
+/* 清除列表样式*/
+ol,ul{list-style: none;}
+/* 输入控件字体*/
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+/* 标题元素样式清除*/
+h1,h2,h3,h4,h5,h6{font-weight: normal;font-size: 100%;}
+del,ins,a{text-decoration:none;}
+a:link,a:visited{color:#333;}
+a:hover{color:white;text-decoration:underline;}
+.t-bold{font-weight:bold;}
+/* 鼠标样式*/
+input[type="submit"]{cursor: pointer;}
+button{cursor: pointer;}
+input::-moz-focus-inner{border: 0;padding: 0;}
+/*禁用文本拖拉(谷歌)*/
+textarea{resize:none;}
+/*闭合浮动*/
+.clearfix:after{content: ".";display: block;height:0;clear:both;visibility: hidden;}
+.clearfix{*zoom:1;}
+/*三种外边距*/
+.mtop10{margin-top:10px!important;}
+.mtop15{margin-top:15px!important;}
+.mtop20{margin-top:20px!important;}
+/*溢出隐藏*/
+.overhidden{overflow: hidden;}
+.wrap{width:1130px; margin:0 auto; position:relative;height: 600px;}
+.fl{float:left;}
+#select{margin-top:10px;width:100px;text-align:center;padding: 10px 0 10px 0;background: #00EE00;border-bottom: 1px solid gainsboro;}
+/*头部信息*/
+.head{background: #0072C6;position: relative;width: 100%;}
+.head .logo {border-right: 1px solid #0065B0;float: left;width: 179px;height: 40px;}
+.head .logo img {margin: 7px 0 0 13px;}
+.head .nav {margin-left: 180px;height: 40px;line-height: 40px;color: #D9D9D9;font-size: 13px;}
+.head .nav ul {float: left;position: relative;}
+.head .nav ul.navRight {float: right;position: relative;}
+.head .nav li {float: left;border-left: 1px solid #0080DD;border-right: 1px solid #0065B0;}
+.head .nav a {display: block;color: #D9D9D9;padding: 0 15px;}
+.head .nav a:hover, #head .nav a.cur {background-color: #60BBFF;color: #FFF;}
+.head .nav a.topAdd:hover {background: #60BBFF url(../images/top_add.gif) no-repeat 15px bottom;}
+.head .nav .noLeft {border-left: 0;}
+.head .nav .noRight {border-right: 0;}
+a:hover{text-decoration: none;}
+/*导航栏*/
+.wrap .dcLeft {width: 100px;float: left;}
+.wrap .dcLeft li{margin-top:10px;width:100px;text-align:center;padding: 10px 0 10px 0;background: #60BBFF;border-bottom: 1px solid gainsboro;}
+.wrap .dcLeft li:hover{background: #9FD7FF;}
+.wrap .dcRight {width:1030px;height:auto;float: left;}
+.wrap .dcRight .right-top span{width: 100%;}
+.wrap .dcRight .right-main{height: auto;margin-left: 120px;margin-top: 15px;}
